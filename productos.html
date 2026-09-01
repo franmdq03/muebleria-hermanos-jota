@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo de productos de Mueblería Hermanos Jota.">
+    <title>Mueblería Hermanos Jota | Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <a href="index.html" aria-label="Ir al inicio">
+            <img src="Kit de imágenes/logo.svg" alt="Logo de Mueblería Hermanos Jota" width="180" height="60">
+        </a>
+
+        <nav aria-label="Navegación principal">
+            <ul class="navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html" aria-current="page">Productos</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html">Carrito <span>0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="seccion-productos">
+        <p class="etiqueta">Nuestra colección</p>
+        <h1>Catálogo de productos</h1>
+
+        <form class="formulario-busqueda" role="search">
+            <label for="busqueda">Buscar productos</label>
+            <input type="search" id="busqueda" name="busqueda">
+            <button class="boton" type="submit">Buscar</button>
+        </form>
+
+        <section class="grilla-productos" aria-label="Catálogo de muebles">
+            <article class="tarjeta-mueble">
+                <img src="Kit de imágenes/Mesa Comedor Pampa.png" alt="Mesa de comedor de madera maciza">
+
+                <div class="contenido-tarjeta">
+                    <h2>Mesa de comedor</h2>
+                    <p>Mesa amplia para 6 personas, ideal para reuniones familiares.</p>
+                    <p><strong>Precio:</strong> Consultar</p>
+                    <a class="boton" href="producto.html#mesa">Ver detalle</a>
+                </div>
+            </article>
+
+            <article class="tarjeta-mueble">
+                <img src="Kit de imágenes/Sillón Copacabana.png" alt="Sillón de tres cuerpos tapizado">
+
+                <div class="contenido-tarjeta">
+                    <h2>Sillón tapizado</h2>
+                    <p>
+                        Comodidad y estilo para tu living, con cuero resistente
+                        al uso diario.
+                    </p>
+                    <p><strong>Precio:</strong> Consultar</p>
+                    <a class="boton" href="producto.html#sillon">Ver detalle</a>
+                </div>
+            </article>
+
+            <article class="tarjeta-mueble">
+                <img src="Kit de imágenes/Sillas Córdoba.png" alt="Silla Cordoba">
+
+                <div class="contenido-tarjeta">
+                    <h2>Silla Cordoba</h2>
+                    <p>
+                        Comodidad y estilo para tu living, con telas resistentes
+                        al uso diario.
+                    </p>
+                    <p><strong>Precio:</strong> Consultar</p>
+                    <a class="boton" href="producto.html#silla">Ver detalle</a>
+                </div>
+            </article>
+
+            <article class="tarjeta-mueble">
+                <img src="Kit de imágenes/Escritorio Costa.png" alt="Escritorio de home office con cajonera">
+
+                <div class="contenido-tarjeta">
+                    <h2>Escritorio home office</h2>
+                    <p>
+                        Superficie amplia y cajonera integrada para estudiar
+                        o trabajar desde casa.
+                    </p>
+                    <p><strong>Precio:</strong> Consultar</p>
+                    <a class="boton" href="producto.html#escritorio">Ver detalle</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <address>
+            <p><strong>Mueblería Hermanos Jota</strong></p>
+            <p>Av. Corrientes 1234, Buenos Aires</p>
+            <p>Tel: <a href="tel:+541112345678">(011) 1234-5678</a></p>
+            <p>
+                Email:
+                <a href="mailto:contacto@hermanosjota.com.ar">
+                    contacto@hermanosjota.com.ar
+                </a>
+            </p>
+        </address>
+
+        <p>
+            <small>&copy; 2026 Mueblería Hermanos Jota. Todos los derechos reservados.</small>
+        </p>
+    </footer>
+
+</body>
+
+</html>
