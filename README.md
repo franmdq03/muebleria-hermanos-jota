@@ -79,35 +79,34 @@ muebleria-jota/
 │
 ├── img/
 │   └── ...
-│ 
+│
 ├── informacion/
 │   └── ...
 │
 └── README.md
 
-# 🎯 Objetivos de aprendizaje
-
-- Estructurar un sitio web utilizando HTML5 semántico.
-- Aplicar estilos con CSS3.
-- Utilizar Flexbox y diseño responsive Mobile First.
-- Implementar lógica utilizando JavaScript.
-- Manipular elementos del DOM.
-- Gestionar productos mediante arrays de objetos.
-- Simular una carga de datos asíncrona.
-- Manejar eventos mediante addEventListener.
-- Trabajar colaborativamente utilizando Git y GitHub.
-
-# 🚀 Ejecución del proyecto
-
+🎯 Objetivos de aprendizaje
+Estructurar un sitio web utilizando HTML5 semántico.
+Aplicar estilos con CSS3.
+Utilizar Flexbox y diseño responsive Mobile First.
+Implementar lógica utilizando JavaScript.
+Manipular elementos del DOM.
+Gestionar productos mediante arrays de objetos.
+Simular una carga de datos asíncrona.
+Manejar eventos mediante addEventListener.
+Trabajar colaborativamente utilizando Git y GitHub.
+🚀 Ejecución del proyecto
 Para utilizar el proyecto de forma local:
 
-1. Clonar el repositorio.
-2. Abrir la carpeta del proyecto.
-3. Abrir el archivo index.html en un navegador.
+Clonar el repositorio.
+Abrir la carpeta del proyecto.
+Abrir el archivo index.html en un navegador.
+🌐 Demo
+🔗 Sitio web: Próximamente
 
-🔗 **Sitio web:** Próximamente
+📌 Estado del proyecto
+🚧 En desarrollo — Sprint 2
 
-# 📄 Licencia
-
+📄 Licencia
 Proyecto desarrollado con fines académicos.
 
