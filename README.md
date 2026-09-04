@@ -1,31 +1,116 @@
-# Mueblería Hermanos Jota
+# 🪑 Mueblería Hermanos Jota
 
-Sitio web de fachada para una mueblería, construido íntegramente con tecnologías del lado del cliente (HTML, CSS y JavaScript). Simula una experiencia de compra sin backend: el catálogo, el detalle de producto y el carrito se manejan por completo en el navegador.
+# 📋 Descripción
 
-## Integrantes
+Proyecto de **E-commerce para Mueblería Hermanos Jota**, desarrollado como proyecto académico durante el Sprint 2.
 
-- [Nombre Apellido]
-- [Nombre Apellido]
-- [Nombre Apellido]
+El objetivo es crear una experiencia de compra completa utilizando tecnologías del lado del cliente: **HTML, CSS y JavaScript**, sin utilizar backend ni base de datos.
 
-## Descripción de funcionalidad
+Los productos se gestionan localmente mediante JavaScript y se muestran dinámicamente en el sitio.
 
-- **Inicio (`index.html`)**: header con logo y navegación, hero principal, historia de la empresa y 4 productos destacados cargados de forma asíncrona.
-- **Catálogo (`productos.html`)**: grilla con todos los productos, renderizada dinámicamente desde un array de objetos, con buscador funcional por nombre o categoría.
-- **Detalle de producto (`producto.html`)**: página dinámica (`producto.html?id=N`) que muestra imagen grande, descripción completa, detalles de fabricación, precio y botón para añadir al carrito.
-- **Carrito (`carrito.html`)**: carrito simulado persistido en `localStorage`, con contador visible en el header de todas las páginas, listado de productos agregados, subtotales, total y opción de quitar ítems o vaciar el carrito.
-- **Contacto (`contacto.html`)**: formulario de nombre, email y mensaje con validación del lado del cliente en JavaScript y mensaje de éxito/error mostrado mediante manipulación del DOM.
+# 👥 Integrantes
 
-## Tecnologías utilizadas
+- Gianella Romero
+- Daiana Villagra
+- Francisco Garcia Sorrenti
+- Khiara Razzolini
 
-- HTML5 semántico
-- CSS3 (Mobile First, Flexbox y CSS Grid)
-- JavaScript (ES6+): arrays de objetos, manipulación del DOM, `Promise`/`async`-`await` para simular carga asíncrona, `addEventListener` para interactividad, `localStorage` para persistir el carrito
+# ✨ Funcionalidades
 
-## Cómo correr el proyecto
+## 🏠 Página de Inicio
 
-Al ser un sitio 100% estático, alcanza con abrir `index.html` en el navegador, o servir la carpeta con cualquier servidor estático, por ejemplo:
+- Header con logo y navegación.
+- Hero Banner principal.
+- Productos destacados cargados dinámicamente.
+- Footer con información básica.
 
-```bash
-npx serve .
+## 🛋️ Catálogo de Productos
+
+- Grilla de tarjetas de productos.
+- Productos cargados desde un archivo JavaScript.
+- Información de cada producto.
+- Acceso al detalle de cada producto.
+- Campo de búsqueda de productos.
+
+## 🔎 Detalle de Producto
+
+- Imagen del producto.
+- Descripción completa.
+- Detalles de fabricación.
+- Precio.
+- Botón **"Añadir al Carrito"**.
+
+## 🛒 Carrito
+
+- Carrito de compras simulado.
+- Contador de productos en el header.
+- Actualización dinámica mediante JavaScript.
+
+## 📩 Contacto
+
+- Formulario de contacto.
+- Campos de Nombre, Email y Mensaje.
+- Validación mediante JavaScript.
+- Mensaje de éxito generado dinámicamente mediante el DOM.
+
+# 🛠️ Tecnologías utilizadas
+
+- **HTML5** — Estructura y contenido del sitio.
+- **CSS3** — Estilos, diseño responsive y Flexbox.
+- **JavaScript** — Lógica, interactividad y manipulación del DOM.
+- **Git** — Control de versiones.
+- **GitHub** — Trabajo colaborativo y gestión del repositorio.
+
+# 📁 Estructura del proyecto
+
+```text
+├── index.html
+├── carrito.html
+├── contacto.html
+├── productos.html
+├── producto.html
+│
+├── style.css
+│
+├── js/
+│   ├── carrito.js
+│   ├── catalogo.js
+│   ├── contacto.js
+│   ├── detalle.js
+│   ├── inicio.js
+│   └── productos.js
+│
+├── Kit de imágenes/
+│   └── ...
+│
+├── Informacion/
+│   └── ...
+│
+└── README.md
 ```
+
+🎯 Objetivos de aprendizaje
+Estructurar un sitio web utilizando HTML5 semántico.
+Aplicar estilos con CSS3.
+Utilizar Flexbox y diseño responsive Mobile First.
+Implementar lógica utilizando JavaScript.
+Manipular elementos del DOM.
+Gestionar productos mediante arrays de objetos.
+Simular una carga de datos asíncrona.
+Manejar eventos mediante addEventListener.
+Trabajar colaborativamente utilizando Git y GitHub.
+🚀 Ejecución del proyecto
+Para utilizar el proyecto de forma local:
+
+Clonar el repositorio.
+Abrir la carpeta del proyecto.
+Abrir el archivo index.html en un navegador.
+🌐 Demo
+🔗 Sitio web: Próximamente
+
+📌 Estado del proyecto
+🚧 En desarrollo — Sprint 2
+
+📄 Licencia
+Proyecto desarrollado con fines académicos.
+
