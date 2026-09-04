@@ -25,148 +25,17 @@
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="index.html#nosotros">Nosotros</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="carrito.html">Carrito <span>0</span></a></li>
+                <li><a href="carrito.html">Carrito <span id="contador-carrito">0</span></a></li>
             </ul>
         </nav>
     </header>
 
     <main class="seccion-productos">
         <p class="etiqueta">Nuestros productos</p>
-        <h1>Detalle de productos</h1>
+        <h1>Detalle de producto</h1>
 
-        <article id="mesa" class="producto-detalle">
-            <img src="Kit de imágenes/Mesa Comedor Pampa.png"
-                 alt="Mesa de comedor de madera maciza"
-                 width="600"
-                 height="450">
-
-            <section>
-                <p class="etiqueta">Producto destacado</p>
-                <h2>Mesa de comedor</h2>
-
-                <p>
-                    Mesa amplia para 6 personas, ideal para reuniones familiares.
-                </p>
-
-                <h3>Detalles de fabricación</h3>
-
-                <ul>
-                    <li>Artesanía</li>
-                    <li>Materiales de primera calidad</li>
-                    <li>Diseño funcional</li>
-                    <li>Trabajo realizado con dedicación</li>
-                </ul>
-
-                <p class="precio">
-                    <strong>Precio:</strong> Consultar
-                </p>
-
-                <button class="boton" type="button">
-                    Añadir al Carrito
-                </button>
-            </section>
-        </article>
-
-        <article id="sillon" class="producto-detalle">
-            <img src="Kit de imágenes/Sillón Copacabana.png"
-                 alt="Sillón de tres cuerpos tapizado"
-                 width="600"
-                 height="450">
-
-            <section>
-                <p class="etiqueta">Producto destacado</p>
-                <h2>Sillón tapizado</h2>
-
-                <p>
-                    Comodidad y estilo para tu living, con cuero resistente
-                    al uso diario.
-                </p>
-
-                <h3>Detalles de fabricación</h3>
-
-                <ul>
-                    <li>Artesanía</li>
-                    <li>Materiales de primera calidad</li>
-                    <li>Diseño funcional</li>
-                    <li>Trabajo realizado con dedicación</li>
-                </ul>
-
-                <p class="precio">
-                    <strong>Precio:</strong> Consultar
-                </p>
-
-                <button class="boton" type="button">
-                    Añadir al Carrito
-                </button>
-            </section>
-        </article>
-
-        <article id="silla" class="producto-detalle">
-            <img src="Kit de imágenes/Sillas Córdoba.png"
-                 alt="Silla Cordoba"
-                 width="600"
-                 height="450">
-
-            <section>
-                <p class="etiqueta">Producto destacado</p>
-                <h2>Silla Cordoba</h2>
-
-                <p>
-                    Comodidad y estilo para tu living, con telas resistentes
-                    al uso diario.
-                </p>
-
-                <h3>Detalles de fabricación</h3>
-
-                <ul>
-                    <li>Artesanía</li>
-                    <li>Materiales de primera calidad</li>
-                    <li>Diseño funcional</li>
-                    <li>Trabajo realizado con dedicación</li>
-                </ul>
-
-                <p class="precio">
-                    <strong>Precio:</strong> Consultar
-                </p>
-
-                <button class="boton" type="button">
-                    Añadir al Carrito
-                </button>
-            </section>
-        </article>
-
-        <article id="escritorio" class="producto-detalle">
-            <img src="Kit de imágenes/Escritorio Costa.png"
-                 alt="Escritorio de home office con cajonera"
-                 width="600"
-                 height="450">
-
-            <section>
-                <p class="etiqueta">Producto destacado</p>
-                <h2>Escritorio home office</h2>
-
-                <p>
-                    Superficie amplia y cajonera integrada para estudiar
-                    o trabajar desde casa.
-                </p>
-
-                <h3>Detalles de fabricación</h3>
-
-                <ul>
-                    <li>Artesanía</li>
-                    <li>Materiales de primera calidad</li>
-                    <li>Diseño funcional</li>
-                    <li>Trabajo realizado con dedicación</li>
-                </ul>
-
-                <p class="precio">
-                    <strong>Precio:</strong> Consultar
-                </p>
-
-                <button class="boton" type="button">
-                    Añadir al Carrito
-                </button>
-            </section>
+        <article id="detalle-producto" class="producto-detalle">
+            <p class="cargando">Cargando producto...</p>
         </article>
     </main>
 
@@ -194,6 +63,9 @@
         </p>
     </footer>
 
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/detalle.js"></script>
 </body>
 
 </html>

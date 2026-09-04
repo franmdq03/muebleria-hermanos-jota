@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contacto de Mueblería Hermanos Jota.">
-    <title>Mueblería Hermanos Jota | Contacto</title>
+    <meta name="description" content="Carrito de compras de Mueblería Hermanos Jota.">
+    <title>Mueblería Hermanos Jota | Carrito</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,41 +21,19 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="index.html#nosotros">Nosotros</a></li>
-                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
-                <li><a href="carrito.html">Carrito <span id="contador-carrito">0</span></a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html" aria-current="page">Carrito <span id="contador-carrito">0</span></a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="seccion-contacto">
-        <p class="etiqueta">Estamos para ayudarte</p>
-        <h1>Contacto</h1>
+    <main class="seccion-productos">
+        <p class="etiqueta">Tu selección</p>
+        <h1>Carrito de compras</h1>
 
-        <form class="formulario-contacto">
-            <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div>
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" rows="7" required></textarea>
-            </div>
-
-            <button class="boton" type="submit">
-                Enviar mensaje
-            </button>
-
-            <p id="mensaje-error" class="mensaje-error" hidden></p>
-            <p id="mensaje-exito" class="mensaje-exito" hidden>
-                Mensaje enviado correctamente.
-            </p>
-        </form>
+        <div id="contenido-carrito" class="contenido-carrito">
+            <p class="cargando">Cargando carrito...</p>
+        </div>
     </main>
 
     <footer class="pie">
@@ -78,7 +56,6 @@
 
     <script src="js/productos.js"></script>
     <script src="js/carrito.js"></script>
-    <script src="js/contacto.js"></script>
 </body>
 
 </html>

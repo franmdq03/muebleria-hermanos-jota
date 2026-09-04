@@ -22,7 +22,7 @@
                 <li><a href="productos.html" aria-current="page">Productos</a></li>
                 <li><a href="index.html#nosotros">Nosotros</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="carrito.html">Carrito <span>0</span></a></li>
+                <li><a href="carrito.html">Carrito <span id="contador-carrito">0</span></a></li>
             </ul>
         </nav>
     </header>
@@ -38,58 +38,7 @@
         </form>
 
         <section class="grilla-productos" aria-label="Catálogo de muebles">
-            <article class="tarjeta-mueble">
-                <img src="Kit de imágenes/Mesa Comedor Pampa.png" alt="Mesa de comedor de madera maciza">
-
-                <div class="contenido-tarjeta">
-                    <h2>Mesa de comedor</h2>
-                    <p>Mesa amplia para 6 personas, ideal para reuniones familiares.</p>
-                    <p><strong>Precio:</strong> Consultar</p>
-                    <a class="boton" href="producto.html#mesa">Ver detalle</a>
-                </div>
-            </article>
-
-            <article class="tarjeta-mueble">
-                <img src="Kit de imágenes/Sillón Copacabana.png" alt="Sillón de tres cuerpos tapizado">
-
-                <div class="contenido-tarjeta">
-                    <h2>Sillón tapizado</h2>
-                    <p>
-                        Comodidad y estilo para tu living, con cuero resistente
-                        al uso diario.
-                    </p>
-                    <p><strong>Precio:</strong> Consultar</p>
-                    <a class="boton" href="producto.html#sillon">Ver detalle</a>
-                </div>
-            </article>
-
-            <article class="tarjeta-mueble">
-                <img src="Kit de imágenes/Sillas Córdoba.png" alt="Silla Cordoba">
-
-                <div class="contenido-tarjeta">
-                    <h2>Silla Cordoba</h2>
-                    <p>
-                        Comodidad y estilo para tu living, con telas resistentes
-                        al uso diario.
-                    </p>
-                    <p><strong>Precio:</strong> Consultar</p>
-                    <a class="boton" href="producto.html#silla">Ver detalle</a>
-                </div>
-            </article>
-
-            <article class="tarjeta-mueble">
-                <img src="Kit de imágenes/Escritorio Costa.png" alt="Escritorio de home office con cajonera">
-
-                <div class="contenido-tarjeta">
-                    <h2>Escritorio home office</h2>
-                    <p>
-                        Superficie amplia y cajonera integrada para estudiar
-                        o trabajar desde casa.
-                    </p>
-                    <p><strong>Precio:</strong> Consultar</p>
-                    <a class="boton" href="producto.html#escritorio">Ver detalle</a>
-                </div>
-            </article>
+            <p class="cargando">Cargando catálogo...</p>
         </section>
     </main>
 
@@ -111,6 +60,9 @@
         </p>
     </footer>
 
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/catalogo.js"></script>
 </body>
 
 </html>
