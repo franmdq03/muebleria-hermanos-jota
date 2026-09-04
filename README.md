@@ -64,26 +64,30 @@ Los productos se gestionan localmente mediante JavaScript y se muestran dinámic
 # 📁 Estructura del proyecto
 
 ```text
-muebleria-jota/
-│
 ├── index.html
+├── carrito.html
+├── contacto.html
 ├── productos.html
 ├── producto.html
-├── contacto.html
 │
-├── css/
-│   └── style.css
+├── style.css
 │
 ├── js/
+│   ├── carrito.js
+│   ├── catalogo.js
+│   ├── contacto.js
+│   ├── detalle.js
+│   ├── inicio.js
 │   └── productos.js
 │
-├── img/
+├── Kit de imágenes/
 │   └── ...
 │
-├── informacion/
+├── Informacion/
 │   └── ...
 │
 └── README.md
+```
 
 🎯 Objetivos de aprendizaje
 Estructurar un sitio web utilizando HTML5 semántico.

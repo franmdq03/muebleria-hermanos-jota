@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mueblería Hermanos Jota — Muebles de calidad con más de 30 años de tradición familiar.">
+    <title>Mueblería Hermanos Jota | Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <a href="index.html" aria-label="Ir al inicio">
+            <img src="Kit de imágenes/logo.svg" alt="Logo de Mueblería Hermanos Jota" width="180" height="60">
+        </a>
+
+        <nav aria-label="Navegación principal">
+            <ul class="navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html">Carrito <span id="contador-carrito">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-contenido">
+                <p class="etiqueta">Más de 30 años de tradición familiar</p>
+
+                <h1>Mueblería Hermanos Jota</h1>
+
+                <p>
+                    Desde hace más de <strong>30 años</strong>, Hermanos Jota fabrica
+                    y comercializa muebles pensados para el hogar argentino.
+                </p>
+
+                <a class="boton" href="#productos-destacados">
+                    Ver productos
+                </a>
+            </div>
+        </section>
+
+        <section id="nosotros" class="seccion-nosotros">
+            <h2>Nuestra historia</h2>
+
+            <p>
+                Somos una empresa familiar que combina artesanía, materiales de
+                primera calidad y diseño funcional para acompañarte en cada rincón
+                de tu casa. Nuestra tradición se transmite de generación en
+                generación, con el mismo compromiso de siempre: entregar muebles
+                duraderos, cómodos y con el calor de un trabajo hecho con dedicación.
+            </p>
+        </section>
+
+        <section id="productos-destacados" class="seccion-productos">
+            <h2>Productos destacados</h2>
+
+            <div class="grilla-productos">
+                <p class="cargando">Cargando productos destacados...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="pie">
+        <address>
+            <p><strong>Mueblería Hermanos Jota</strong></p>
+            <p>Av. Corrientes 1234, Buenos Aires</p>
+            <p>Tel: <a href="tel:+541112345678">(011) 1234-5678</a></p>
+            <p>
+                Email:
+                <a href="mailto:contacto@hermanosjota.com.ar">
+                    contacto@hermanosjota.com.ar
+                </a>
+            </p>
+        </address>
+
+        <p>
+            <small>
+                &copy; 2026 Mueblería Hermanos Jota.
+                Todos los derechos reservados.
+            </small>
+        </p>
+    </footer>
+
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/inicio.js"></script>
+</body>
+
+</html>
