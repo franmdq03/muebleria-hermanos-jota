@@ -387,3 +387,59 @@ h1,h2,h3 { line-height:1.1; }
         grid-template-columns:repeat(4,1fr);
     }
 }
+
+
+
+.boton,
+.tarjeta-mueble,
+.tarjeta-mueble img,
+.navegacion a,
+.formulario-contacto input,
+.formulario-contacto textarea {
+    transition: all 0.3s ease-in-out;
+}
+.boton:hover,
+.boton:focus {
+    background: var(--marron);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(86, 53, 34, 0.25); 
+}
+.tarjeta-mueble:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(86, 53, 34, 0.12);
+    border-color: var(--marron-claro);
+}
+.tarjeta-mueble:hover img {
+    transform: scale(1.05);
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.tarjeta-mueble {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+  
+.boton-volver {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--gris);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.boton-volver:hover {
+    color: var(--naranja);
+    
+}
